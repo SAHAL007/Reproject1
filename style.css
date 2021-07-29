@@ -1,3 +1,97 @@
-h1{
-    background-color: green;
+body{
+    font-family: 'Roboto', sans-serif;
+ font-family: 'Yusei Magic', sans-serif;
+ }
+ nav{
+    height: 50px;
+    background-color:chocolate;
+    font-size: 20px;
+    line-height: 30px;
 }
+nav li{
+    list-style: none;
+    padding: 10px;
+}
+nav > ul >li{
+    float: right;
+}
+h1{
+    font-size: 55px;
+}
+h2{
+    font-size: 35px;
+    color: tomato;
+}
+.orrange-highlight{
+    color: orange;
+}
+#space{
+    margin-top: -15px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 2%;
+   }
+.half-width img{
+    width: 100%;
+}
+.person{
+    display: block;
+  max-width:500px;
+  max-height:550px;
+  width: auto;
+  height: auto;
+}
+section{
+    height: 550px;
+    margin-bottom: 50px;
+   
+}
+.link-button{
+    text-decoration:none ;
+    background-image: linear-gradient(45 deg,rgb(104, 83, 80),tomato );
+    background-color: orangered;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+   }
+   .person-background{
+       background-image: url("image/7.png");
+       background-repeat: no-repeat;
+   }
+   #recipi{
+       text-align: center;
+   }
+   #middle-p{
+       text-align: center;
+   }
+   .box{
+       float: left;
+   }
+   .box{
+       width: 30%;
+       height: 550px;
+       border-radius: 15px;
+       float: left;
+       margin-left: 20px;
+       box-shadow: 15px 20px 15px gray;
+   }
+   .box img{
+       width: 95%;
+       padding:10px;
+   }
+   .box h2{
+       text-align: center;
+   }
+   .middle{
+       margin: 0 400px 0 400px;
+   }
+   .last-part{
+       text-align: center;
+       background-color: rgb(104, 83, 80);
+   }
+   
